@@ -27,7 +27,7 @@ FEED_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 PARIS = ZoneInfo("Europe/Paris")
 
 # Impacts publiés : "High" uniquement. Ajoute "Medium" pour plus d'annonces.
-IMPACTS = {"High"}
+IMPACTS = {"High", "Medium"}
 
 # Fenêtre : doit correspondre à la fréquence d'exécution (5 minutes)
 WINDOW_START_MIN = 10
